@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "finance-tracker"
+version = "0.1.0"
+description = "This project is for persinal finance tracking"
+authors = ["Bushan Bengaluru"]
+license = "GNU"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.13"
+pandas = "^2.2.3"
+datetime = "^5.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
